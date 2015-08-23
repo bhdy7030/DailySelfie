@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView android:id="@+id/photo" android:layout_width="100dp" android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="267dp"
+        android:layout_height="100dp"
+        android:id="@+id/photo_date"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:gravity="center_vertical|left" />
+
+</LinearLayout>
